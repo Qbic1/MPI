@@ -62,15 +62,6 @@ int* get_randomized_array(int size)
 	return array;
 }
 
-/*void printMatrix(int *matrix, int n) {
-	for (int i = 0; i < n; i++) {
-		for (int j = 0; j < n; j++) {
-			cout << matrix[i*n + j] << " ";
-		}
-		cout << endl;
-	}
-}*/
-
 int main(int argc, char* argv[]) {
 	srand(time(0));
 
